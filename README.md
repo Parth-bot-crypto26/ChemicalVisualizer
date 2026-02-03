@@ -121,4 +121,4 @@ python main.py
 
 *4. View Analytics: Check the Dashboard for charts and KPIs.*
 
-* 5. Generate Report: Click the "PDF" button in the history list to download the analysis report.*
+*5. Generate Report: Click the "PDF" button in the history list to download the analysis report.*
