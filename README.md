@@ -74,3 +74,50 @@ python manage.py createsuperuser
 
 # Run Server
 python manage.py runserver
+
+### 2️⃣ Web Frontend Setup (React)
+Open a new terminal for the web client.
+
+```bash
+# Navigate to web directory
+cd frontend-web
+
+# Install Node modules
+npm install
+
+# Start the React App
+npm start
+
+
+### 3️⃣ Desktop Frontend Setup (PyQt5)
+Open a new terminal for the desktop client.
+
+# Navigate to desktop directory
+cd frontend-desktop
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install PyQt5 requests matplotlib
+
+# Run the Application
+python main.py
+
+### 🧪 How to Test the Application
+
+Ensure the Backend is Running on port 8000.
+
+Log in to either the Web or Desktop app using the superuser credentials you created.
+
+Upload Data: Use the provided sample_equipment_data.csv file.
+
+View Analytics: Check the Dashboard for charts and KPIs.
+
+Generate Report: Click the "PDF" button in the history list to download the analysis report.
