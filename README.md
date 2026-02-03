@@ -48,6 +48,7 @@ Follow these steps to set up the project locally.
 ### 1️⃣ Backend Setup (Django)
 The backend is the heart of the application. It must be running for the frontends to work.
 
+```bash
 # Navigate to backend directory
 cd backend
 
