@@ -109,15 +109,16 @@ pip install PyQt5 requests matplotlib
 *5. Run the Application*
 python main.py
 
+---
 
-### 🧪 How to Test the Application
+## 🧪 How to Test the Application
 
-Ensure the Backend is Running on port 8000.
+*1. vEnsure the Backend is Running on port 8000.*
 
-Log in to either the Web or Desktop app using the superuser credentials you created.
+*2. Log in to either the Web or Desktop app using the superuser credentials you created.*
 
-Upload Data: Use the provided sample_equipment_data.csv file.
+*3. Upload Data: Use the provided sample_equipment_data.csv file.*
 
-View Analytics: Check the Dashboard for charts and KPIs.
+*4. View Analytics: Check the Dashboard for charts and KPIs.*
 
-Generate Report: Click the "PDF" button in the history list to download the analysis report.
+* 5. Generate Report: Click the "PDF" button in the history list to download the analysis report.*
