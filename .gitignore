@@ -1,0 +1,10 @@
+# Ignore Python environments
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Ignore Node modules (Web)
+node_modules/
+build/
+.DS_Store
