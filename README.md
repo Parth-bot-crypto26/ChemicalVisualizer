@@ -48,64 +48,65 @@ Follow these steps to set up the project locally.
 ### 1️⃣ Backend Setup (Django)
 The backend is the heart of the application. It must be running for the frontends to work.
 
-*Navigate to backend directory*
+*1. Navigate to backend directory*
 cd backend
 
-*Create virtual environment*
+*2. Create virtual environment*
 python -m venv venv
 
-*Activate virtual environment*
+*3. Activate virtual environment*
 * Windows:*
 venv\Scripts\activate
 * Mac/Linux:*
 source venv/bin/activate
 
-*Install dependencies*
+*4. Install dependencies*
 pip install -r requirements.txt
 
-*Apply migrations*
+*5. Apply migrations*
 python manage.py makemigrations
 python manage.py migrate
 
-*Create Superuser (Admin) for Login*
+*6. Create Superuser (Admin) for Login*
 python manage.py createsuperuser
 *(Follow prompts to set username/password)*
 
-*Run Server*
+*7. Run Server*
 python manage.py runserver
 
 ### 2️⃣ Web Frontend Setup (React)
 Open a new terminal for the web client.
 
-*Navigate to web directory*
+*1. Navigate to web directory*
 cd frontend-web
 
-*Install Node modules*
+*2. Install Node modules*
 npm install
 
-*Start the React App*
+*3. Start the React App*
 npm start
 The application will open in your browser at http://localhost:3000/
 
 ### 3️⃣ Desktop Frontend Setup (PyQt5)
 Open a new terminal for the desktop client.
 
-*Navigate to desktop directory*
+*1. Navigate to desktop directory*
 cd frontend-desktop
 
-*Create virtual environment*
+*2. Create virtual environment*
 python -m venv venv
 
-*Activate virtual environment*
+*3. Activate virtual environment*
+
 *Windows:*
 venv\Scripts\activate
 *Mac/Linux:*
 source venv/bin/activate
 
-*Install dependencies*
+*4. Install dependencies*
 pip install PyQt5 requests matplotlib
 
-*Run the Application*
+*5. Run the Application*
 python main.py
 
 
