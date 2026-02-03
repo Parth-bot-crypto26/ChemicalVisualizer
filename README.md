@@ -90,10 +90,10 @@ The application will open in your browser at http://localhost:3000/
 ### 3️⃣ Desktop Frontend Setup (PyQt5)
 Open a new terminal for the desktop client.
 
-*Navigate to desktop directory
+*Navigate to desktop directory*
 cd frontend-desktop
 
-*Create virtual environment
+*Create virtual environment*
 python -m venv venv
 
 *Activate virtual environment*
